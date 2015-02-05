@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C23F1D41A83125E0016A83D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C23F1D31A83125E0016A83D /* AppDelegate.swift */; };
+		8C23F1D61A83125E0016A83D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C23F1D51A83125E0016A83D /* ViewController.swift */; };
+		8C23F1D91A83125E0016A83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C23F1D71A83125E0016A83D /* Main.storyboard */; };
+		8C23F1DB1A83125E0016A83D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C23F1DA1A83125E0016A83D /* Images.xcassets */; };
+		8C23F1DE1A83125E0016A83D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C23F1DC1A83125E0016A83D /* LaunchScreen.xib */; };
+		8C23F1EA1A83125E0016A83D /* AncientWordsGuessingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C23F1E91A83125E0016A83D /* AncientWordsGuessingGameTests.swift */; };
+		8C23F1F41A8318F40016A83D /* StartGameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C23F1F31A8318F40016A83D /* StartGameScreenViewController.swift */; };
+		8C23F1F61A83194E0016A83D /* ChooseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C23F1F51A83194E0016A83D /* ChooseMenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C23F1E41A83125E0016A83D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C23F1C61A83125D0016A83D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C23F1CD1A83125D0016A83D;
+			remoteInfo = AncientWordsGuessingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C23F1CE1A83125D0016A83D /* AncientWordsGuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AncientWordsGuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C23F1D21A83125E0016A83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C23F1D31A83125E0016A83D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C23F1D51A83125E0016A83D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C23F1D81A83125E0016A83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C23F1DA1A83125E0016A83D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C23F1DD1A83125E0016A83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8C23F1E31A83125E0016A83D /* AncientWordsGuessingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncientWordsGuessingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C23F1E81A83125E0016A83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C23F1E91A83125E0016A83D /* AncientWordsGuessingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncientWordsGuessingGameTests.swift; sourceTree = "<group>"; };
+		8C23F1F31A8318F40016A83D /* StartGameScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameScreenViewController.swift; sourceTree = "<group>"; };
+		8C23F1F51A83194E0016A83D /* ChooseMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseMenuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C23F1CB1A83125D0016A83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C23F1E01A83125E0016A83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C23F1C51A83125D0016A83D = {
+			isa = PBXGroup;
+			children = (
+				8C23F1D01A83125D0016A83D /* AncientWordsGuessingGame */,
+				8C23F1E61A83125E0016A83D /* AncientWordsGuessingGameTests */,
+				8C23F1CF1A83125D0016A83D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C23F1CF1A83125D0016A83D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C23F1CE1A83125D0016A83D /* AncientWordsGuessingGame.app */,
+				8C23F1E31A83125E0016A83D /* AncientWordsGuessingGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C23F1D01A83125D0016A83D /* AncientWordsGuessingGame */ = {
+			isa = PBXGroup;
+			children = (
+				8C23F1D31A83125E0016A83D /* AppDelegate.swift */,
+				8C23F1F51A83194E0016A83D /* ChooseMenuViewController.swift */,
+				8C23F1F31A8318F40016A83D /* StartGameScreenViewController.swift */,
+				8C23F1D51A83125E0016A83D /* ViewController.swift */,
+				8C23F1D71A83125E0016A83D /* Main.storyboard */,
+				8C23F1DA1A83125E0016A83D /* Images.xcassets */,
+				8C23F1DC1A83125E0016A83D /* LaunchScreen.xib */,
+				8C23F1D11A83125E0016A83D /* Supporting Files */,
+			);
+			path = AncientWordsGuessingGame;
+			sourceTree = "<group>";
+		};
+		8C23F1D11A83125E0016A83D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C23F1D21A83125E0016A83D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C23F1E61A83125E0016A83D /* AncientWordsGuessingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C23F1E91A83125E0016A83D /* AncientWordsGuessingGameTests.swift */,
+				8C23F1E71A83125E0016A83D /* Supporting Files */,
+			);
+			path = AncientWordsGuessingGameTests;
+			sourceTree = "<group>";
+		};
+		8C23F1E71A83125E0016A83D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C23F1E81A83125E0016A83D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C23F1CD1A83125D0016A83D /* AncientWordsGuessingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C23F1ED1A83125E0016A83D /* Build configuration list for PBXNativeTarget "AncientWordsGuessingGame" */;
+			buildPhases = (
+				8C23F1CA1A83125D0016A83D /* Sources */,
+				8C23F1CB1A83125D0016A83D /* Frameworks */,
+				8C23F1CC1A83125D0016A83D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AncientWordsGuessingGame;
+			productName = AncientWordsGuessingGame;
+			productReference = 8C23F1CE1A83125D0016A83D /* AncientWordsGuessingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C23F1E21A83125E0016A83D /* AncientWordsGuessingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C23F1F01A83125E0016A83D /* Build configuration list for PBXNativeTarget "AncientWordsGuessingGameTests" */;
+			buildPhases = (
+				8C23F1DF1A83125E0016A83D /* Sources */,
+				8C23F1E01A83125E0016A83D /* Frameworks */,
+				8C23F1E11A83125E0016A83D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C23F1E51A83125E0016A83D /* PBXTargetDependency */,
+			);
+			name = AncientWordsGuessingGameTests;
+			productName = AncientWordsGuessingGameTests;
+			productReference = 8C23F1E31A83125E0016A83D /* AncientWordsGuessingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C23F1C61A83125D0016A83D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Sherlock.Yu;
+				TargetAttributes = {
+					8C23F1CD1A83125D0016A83D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8C23F1E21A83125E0016A83D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8C23F1CD1A83125D0016A83D;
+					};
+				};
+			};
+			buildConfigurationList = 8C23F1C91A83125D0016A83D /* Build configuration list for PBXProject "AncientWordsGuessingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C23F1C51A83125D0016A83D;
+			productRefGroup = 8C23F1CF1A83125D0016A83D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C23F1CD1A83125D0016A83D /* AncientWordsGuessingGame */,
+				8C23F1E21A83125E0016A83D /* AncientWordsGuessingGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C23F1CC1A83125D0016A83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C23F1D91A83125E0016A83D /* Main.storyboard in Resources */,
+				8C23F1DE1A83125E0016A83D /* LaunchScreen.xib in Resources */,
+				8C23F1DB1A83125E0016A83D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C23F1E11A83125E0016A83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C23F1CA1A83125D0016A83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C23F1F41A8318F40016A83D /* StartGameScreenViewController.swift in Sources */,
+				8C23F1D61A83125E0016A83D /* ViewController.swift in Sources */,
+				8C23F1F61A83194E0016A83D /* ChooseMenuViewController.swift in Sources */,
+				8C23F1D41A83125E0016A83D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C23F1DF1A83125E0016A83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C23F1EA1A83125E0016A83D /* AncientWordsGuessingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C23F1E51A83125E0016A83D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C23F1CD1A83125D0016A83D /* AncientWordsGuessingGame */;
+			targetProxy = 8C23F1E41A83125E0016A83D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C23F1D71A83125E0016A83D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C23F1D81A83125E0016A83D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C23F1DC1A83125E0016A83D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C23F1DD1A83125E0016A83D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C23F1EB1A83125E0016A83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C23F1EC1A83125E0016A83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C23F1EE1A83125E0016A83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AncientWordsGuessingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C23F1EF1A83125E0016A83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AncientWordsGuessingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C23F1F11A83125E0016A83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AncientWordsGuessingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AncientWordsGuessingGame.app/AncientWordsGuessingGame";
+			};
+			name = Debug;
+		};
+		8C23F1F21A83125E0016A83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AncientWordsGuessingGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AncientWordsGuessingGame.app/AncientWordsGuessingGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C23F1C91A83125D0016A83D /* Build configuration list for PBXProject "AncientWordsGuessingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C23F1EB1A83125E0016A83D /* Debug */,
+				8C23F1EC1A83125E0016A83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C23F1ED1A83125E0016A83D /* Build configuration list for PBXNativeTarget "AncientWordsGuessingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C23F1EE1A83125E0016A83D /* Debug */,
+				8C23F1EF1A83125E0016A83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C23F1F01A83125E0016A83D /* Build configuration list for PBXNativeTarget "AncientWordsGuessingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C23F1F11A83125E0016A83D /* Debug */,
+				8C23F1F21A83125E0016A83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C23F1C61A83125D0016A83D /* Project object */;
+}
